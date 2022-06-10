@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400&family=PT+Sans+Narrow&display=swap');
+
+:root{
+    --cor-fundo:#9EE7FF;
+    --cor-titulo:#0048FF;
+    --cor-parágrafo:#357BE6;
+    --cor-1:#A7D2FA;
+    --cor-2:#8DC3E3;
+    --fonte-titulo:Anton;
+    --fonte-2:Hind;
+}
+body {
+    width: 700px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: var(--cor-1);
+    opacity: 0,3;
+}
+
+h1{
+    font-family: var(--fonte-titulo);
+    color: var(--cor-titulo);
+    
+}
+
+p{
+    font-family: var(--fonte-2);
+    color: black;
+}
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--fonte-2);
+}
+
+thead {
+    background-color: var(--cor-titulo);
+    color: white;
+}
+
+tbody {
+    background-color: var(--cor-2) ;
+}
