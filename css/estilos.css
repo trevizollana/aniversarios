@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400&family=PT+Sans+Narrow&display=swap');
 
 :root{
-    --cor-fundo:#9EE7FF;
-    --cor-titulo:#0048FF;
-    --cor-parágrafo:#357BE6;
-    --cor-1:#A7D2FA;
-    --cor-2:#8DC3E3;
+    --cor-fundo:#CBF5E2;
+    --cor-titulo:#355C4A;
+    --cor-parágrafo:#005C32;
+    --cor-1:#62A888;
+    --cor-2:#80DBB2;
     --fonte-titulo:Anton;
     --fonte-2:Hind;
 }
@@ -15,7 +15,7 @@ body {
     max-width: 100%;
     margin: auto;
     text-align: center;
-    background-color: var(--cor-1);
+    background-color: var(--cor-fundo);
     opacity: 0,3;
 }
 
@@ -27,13 +27,26 @@ h1{
 
 p{
     font-family: var(--fonte-2);
-    color: black;
+    color: var(--cor-parágrafo);
+}
+
+img {
+    border: 3px solid;
+    border-color: var(--cor-1);
+    
+}
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: var(--cor-1);
 }
 table{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-family: var(--fonte-2);
+    width: 50%;
 }
 
 thead {
